@@ -44,23 +44,23 @@ function handleClick(value) {
         <Screen inputProp={input} resultProp={result} ></Screen>
 
         <div className='buttonsGrid'>
-          <Button buttonName={'7'} handleClickProp={handleClick}/>
-          <Button buttonName={'8'} handleClickProp={handleClick}/>
-          <Button buttonName={'9'} handleClickProp={handleClick}/>
-          <Button buttonName={'/'} handleClickProp={handleClick}/>
-          <Button buttonName={'4'} handleClickProp={handleClick}/>
-          <Button buttonName={'5'} handleClickProp={handleClick}/>
-          <Button buttonName={'6'} handleClickProp={handleClick}/>
-          <Button buttonName={'*'} handleClickProp={handleClick}/>
-          <Button buttonName={'1'} handleClickProp={handleClick}/>
-          <Button buttonName={'2'} handleClickProp={handleClick}/>
-          <Button buttonName={'3'} handleClickProp={handleClick}/>
-          <Button buttonName={'-'} handleClickProp={handleClick}/>
-          <Button buttonName={'0'} handleClickProp={handleClick}/>
-          <Button buttonName={'C'} handleClickProp={handleClick}/>
+          <Button buttonName={'7'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'8'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'9'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'/'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'4'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'5'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'6'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'*'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'1'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'2'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'3'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'-'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'0'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'C'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'+'} handleClickProp={handleClick} className="button"/>
+          <Button buttonName={'.'} handleClickProp={handleClick} className="button"/>
           <Button buttonName={'='} handleClickProp={handleClick} className="equals"/>
-          <Button buttonName={'+'} handleClickProp={handleClick}/>
-          <Button buttonName={'.'} handleClickProp={handleClick}/>
         </div>
       </div>
     </div>
