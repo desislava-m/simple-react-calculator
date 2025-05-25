@@ -58,8 +58,9 @@ function handleClick(value) {
           <Button buttonName={'-'} handleClickProp={handleClick}/>
           <Button buttonName={'0'} handleClickProp={handleClick}/>
           <Button buttonName={'C'} handleClickProp={handleClick}/>
-          <Button buttonName={'='} handleClickProp={handleClick}/>
+          <Button buttonName={'='} handleClickProp={handleClick} className="equals"/>
           <Button buttonName={'+'} handleClickProp={handleClick}/>
+          <Button buttonName={'.'} handleClickProp={handleClick}/>
         </div>
       </div>
     </div>

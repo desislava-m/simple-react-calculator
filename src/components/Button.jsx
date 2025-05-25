@@ -1,7 +1,7 @@
-export default function Button({buttonName, handleClickProp}) {
+export default function Button({buttonName, handleClickProp, className}) {
     return (
         
-            <button onClick={() => handleClickProp(buttonName)}>{buttonName}</button>
+            <button className={className} onClick={() => handleClickProp(buttonName)}>{buttonName}</button>
         
     )
 }
