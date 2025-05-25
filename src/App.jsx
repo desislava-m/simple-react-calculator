@@ -39,27 +39,30 @@ function handleClick(value) {
 }
 
   return (
-    <>
-      <Screen inputProp={input} resultProp={result} ></Screen>
+    <div className="wrapper">
+      <div className='calculator'>
+        <Screen inputProp={input} resultProp={result} ></Screen>
 
-      <div className='buttonsGrid'>
-        <Button buttonName={'7'} handleClickProp={handleClick}/>
-        <Button buttonName={'8'} handleClickProp={handleClick}/>
-        <Button buttonName={'9'} handleClickProp={handleClick}/>
-        <Button buttonName={'/'} handleClickProp={handleClick}/>
-        <Button buttonName={'4'} handleClickProp={handleClick}/>
-        <Button buttonName={'5'} handleClickProp={handleClick}/>
-        <Button buttonName={'6'} handleClickProp={handleClick}/>
-        <Button buttonName={'*'} handleClickProp={handleClick}/>
-        <Button buttonName={'1'} handleClickProp={handleClick}/>
-        <Button buttonName={'2'} handleClickProp={handleClick}/>
-        <Button buttonName={'3'} handleClickProp={handleClick}/>
-        <Button buttonName={'-'} handleClickProp={handleClick}/>
-        <Button buttonName={'0'} handleClickProp={handleClick}/>
-        <Button buttonName={'C'} handleClickProp={handleClick}/>
-        <Button buttonName={'='} handleClickProp={handleClick}/>
+        <div className='buttonsGrid'>
+          <Button buttonName={'7'} handleClickProp={handleClick}/>
+          <Button buttonName={'8'} handleClickProp={handleClick}/>
+          <Button buttonName={'9'} handleClickProp={handleClick}/>
+          <Button buttonName={'/'} handleClickProp={handleClick}/>
+          <Button buttonName={'4'} handleClickProp={handleClick}/>
+          <Button buttonName={'5'} handleClickProp={handleClick}/>
+          <Button buttonName={'6'} handleClickProp={handleClick}/>
+          <Button buttonName={'*'} handleClickProp={handleClick}/>
+          <Button buttonName={'1'} handleClickProp={handleClick}/>
+          <Button buttonName={'2'} handleClickProp={handleClick}/>
+          <Button buttonName={'3'} handleClickProp={handleClick}/>
+          <Button buttonName={'-'} handleClickProp={handleClick}/>
+          <Button buttonName={'0'} handleClickProp={handleClick}/>
+          <Button buttonName={'C'} handleClickProp={handleClick}/>
+          <Button buttonName={'='} handleClickProp={handleClick}/>
+          <Button buttonName={'+'} handleClickProp={handleClick}/>
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 
